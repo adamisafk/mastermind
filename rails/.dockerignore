@@ -1,0 +1,7 @@
+.git/
+.gitignore
+**/node_modules/
+rails/log/*
+rails/tmp/*
+rails/db/*.sqlite3
+rails/db/*.sqlite3-journal

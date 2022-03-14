@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  web:
+    build:
+      context: ./rails
+    stdin_open: true
+    tty: true
+    container_name: mastermind-rails
+    command: bash -c 'npm run build && rails s -p 3000 -b '0.0.0.0''
+    ports:
+      - "3000:3000"
