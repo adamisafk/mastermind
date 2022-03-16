@@ -30,6 +30,21 @@ gem "cssbundling-rails"
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
 
+# Import Map
+gem 'importmap-rails'
+
+# Devise
+gem 'devise'
+
+# OmniAuth Genius Strategy
+gem 'omniauth-genius'
+
+# Added to clear warn messages
+gem "net-http"
+
+# HTTParty
+gem 'httparty'
+
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
 

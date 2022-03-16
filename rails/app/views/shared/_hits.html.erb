@@ -1,0 +1,11 @@
+<div>
+  <ul>
+    <% @hits.each do |hit| %>
+      <li>
+        <p><%= hit['result']['title'] %></p>
+        <p><%= hit['result']['artist_names'] %></p>
+        <p><%= hit['result']['stats']['pageviews'] %></p>
+      </li>
+    <% end %>
+  </ul>
+</div>
